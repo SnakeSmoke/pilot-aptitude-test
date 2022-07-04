@@ -14,7 +14,7 @@ DIFFICULTY = {
 
 random_number_list = []
 for n in range(int(sys.argv[1])):
-    random_number_list.append(randrange(1,9))
+    random_number_list.append(randrange(1,10))
 
 print(random_number_list)
 
